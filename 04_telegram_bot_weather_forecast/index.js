@@ -4,10 +4,9 @@ import { onStart, onHelp, onStop, onChangeInterval, onChangeUnit } from './compo
 import axios from 'axios';
 import { buttonsInterval, unitsButton } from './components/buttons/index.js';
 import { configureIntervals, configureUnits } from './components/callbackQuery/index.js';
-dotenv.config()
 
-const botToken = process.env.BOT_TOKEN;
-const apiToken = process.env.API_TOKEN;
+const botToken = '5957881656:AAGKMLNv09SbZPYx0BsDPClACG62_V0iwu0';
+const apiToken = '750f30cbd9d1e566082ae8e3b5c21c0f';
 const bot = new TelegramBot(botToken, { polling: true });
 
 let nIntervId;
