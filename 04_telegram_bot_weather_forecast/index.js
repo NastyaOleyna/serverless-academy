@@ -1,4 +1,3 @@
-import * as dotenv from 'dotenv'
 import TelegramBot from 'node-telegram-bot-api';
 import { onStart, onHelp, onStop, onChangeInterval, onChangeUnit } from './components/menuComponents/index.js';
 import axios from 'axios';
