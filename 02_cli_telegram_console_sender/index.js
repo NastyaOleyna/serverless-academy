@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { program } = require('commander');
-const fs = require('fs')
+const fs = require('fs');
 
 const token = '6048568427:AAEQpWB5xnLo6-Ik0DPUr7-K6Jf8f6Htp4g';
 const bot = new TelegramBot(token, { polling: true });
@@ -23,7 +23,7 @@ if(!chatId){
             }, 1000)
         }
     })
-}
+};
 
 
 
@@ -34,7 +34,7 @@ program
     .action(async (msg) => {
         await bot.sendMessage(chatId, msg);
         process.exit();
-    })
+    });
 
 program
     .command('send-photo')
@@ -43,8 +43,8 @@ program
     .action(async (msg) => {
         await bot.sendPhoto(chatId, msg)
         process.exit();
-    })
+    });
 
 if (process.argv.length >= 3) {
     program.parse();
-}
+};

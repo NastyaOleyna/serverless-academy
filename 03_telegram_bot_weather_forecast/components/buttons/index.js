@@ -26,13 +26,36 @@ export const buttonsInterval = {
     "reply_markup": {
         "inline_keyboard": [
             [{
-                text: "at intervals of 3 hours",
-                callback_data: "3",
+                text: "Weather now",
+                callback_data: "now",
             }],
             [{
-                text: "at intervals of 6 hours",
-                callback_data: "6",
+                text: "At intervals of 3 hours",
+                callback_data: "interval3",
+            }],
+            [{
+                text: "At intervals of 6 hours",
+                callback_data: "interval6",
             }],
         ]
     }
 };
+
+export const buttonsIntervalsMessages = {
+    "reply_markup": {
+        "inline_keyboard": [
+            [{
+                text: "Yes, I want to get weather every 3 hours",
+                callback_data: "3",
+            }],
+            [{
+                text: "Yes, I want to get weather every 6 hours",
+                callback_data: "6",
+            }],
+            [{
+                text: "No, I don't want to. ",
+                callback_data: "rejection",
+            }],
+        ]
+    }
+}

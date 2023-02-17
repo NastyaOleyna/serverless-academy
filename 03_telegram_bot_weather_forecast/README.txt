@@ -1,6 +1,10 @@
 This is a Telegram Bot Weather Forecast.
 To start this app use "npm start".
 
+In this Telegram Bot you can see what the weather is like now 
+or get the weather for the next 5 days in intervals of 3 or 6 hours.
+Also you can get info about weather every 3 or 6 hours.
+
 Telegram Bot has few commands: 
 /start - to start bot
 
@@ -14,5 +18,7 @@ Telegram Bot has few commands:
  /changeinterval - to change interval between messages from bot
 
  /changeunit - to change unit. You can choose metric or imperial. 
+
+ /weathernow - to see what is the weather right now.
 
 
