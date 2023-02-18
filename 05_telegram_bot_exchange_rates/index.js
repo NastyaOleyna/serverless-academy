@@ -4,7 +4,7 @@ import NodeCache from 'node-cache';
 import { currencyButtons } from './components/buttons/index.js';
 import { sendExchangeRate } from './components/options/index.js';
 
-const botToken = BOT_TOKEN;
+const botToken = process.env.BOT_TOKEN;
 const bot = new TelegramBot(botToken, { polling: true });
 const myCache = new NodeCache({ stdTTL: 100, checkperiod: 120 });
 

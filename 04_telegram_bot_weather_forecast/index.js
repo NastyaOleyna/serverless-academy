@@ -4,8 +4,8 @@ import axios from 'axios';
 import { buttonsInterval, buttonsIntervalsMessages, unitsButton } from './components/buttons/index.js';
 import { configureIntervals, configureUnits, sendWeatherWithInterval } from './components/callbackQuery/index.js';
 
-const botToken = BOT_TOKEN;
-const apiToken = API_TOKEN;
+const botToken = process.env.BOT_TOKEN; 
+const apiToken = process.env.API_TOKEN;
 const bot = new TelegramBot(botToken, { polling: true });
 
 let nIntervId;
