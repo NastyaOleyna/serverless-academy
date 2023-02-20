@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "cli-primitive-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "nastyaolejnyk@gmail.com",
+  "license": "ISC"
+}
