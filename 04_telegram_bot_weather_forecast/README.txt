@@ -1,5 +1,6 @@
 This is a Telegram Bot Weather Forecast.
 To start this app use "npm start".
+You can use my Bot Token or put yours in ".env.example".
 
 In this Telegram Bot you can see what the weather is like now 
 or get the weather for the next 5 days in intervals of 3 or 6 hours.
