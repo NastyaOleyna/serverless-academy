@@ -13,9 +13,6 @@ export let dataWeather = [];
 let index = 0;
 let units = 'metric';
 
-const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
 bot.onText(/\/start/, async (msg) => {
     onStart(bot, msg);
 });
